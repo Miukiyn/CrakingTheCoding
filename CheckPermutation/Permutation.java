@@ -26,8 +26,8 @@ public class Permutation {
             System.out.print("Give two string: ");
             String str = reader.readLine();
             
-            
-            words = str.split(split);
+            String low = str.toLowerCase();
+            words = low.split(split);
             if(!(words[1] == null)){
                 System.out.println(isPermutation(words));
             }
@@ -47,7 +47,7 @@ public class Permutation {
     public static boolean isPermutation(String[] words){
         boolean permutation = false;
         
-        if(!(words[0].equals(words[1])) && sum(words[0]) == sum(words[1])){ 
+        if(sum(words[0]) == sum(words[1])){ 
             permutation = true;
         }
         return permutation;
