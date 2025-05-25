@@ -2,7 +2,7 @@
 /**
  * Author: Iago Adrien - Miukiyn
  * Version: 1.0
- */
+ */ 
 package CheckPermutation;
 
 import java.io.BufferedReader;
