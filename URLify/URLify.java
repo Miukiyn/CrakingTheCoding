@@ -13,6 +13,13 @@ public class URLify{
   * @param 
   */
   public static void main(String[] agr){
+    BufferedReader reader = new BufferReader(new InputStreamReader(System.in));
+    
+    try{
+      
+    }catch(IOException e){
+      
+    }
     
   }
 
