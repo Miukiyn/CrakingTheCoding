@@ -20,6 +20,15 @@ public class URLify{
     }catch(IOException e){
       
     }
+
+    public static String methodURLify(Strign str, int length){
+      int spaceCounter = 0;
+      for(int i = 0; i < length; i++){
+        if(str.charAt(i) = ' '){
+          spaceCounter++;
+        }
+      }
+    }
     
   }
 
